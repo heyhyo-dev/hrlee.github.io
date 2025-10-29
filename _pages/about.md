@@ -15,14 +15,14 @@ comments: false
 </div>
 
 <div align="center">
-
-📍 Seoul, Korea <br> 
-👩🏻‍💻 [github: heyhyo-dev](https://github.com/heyhyo-dev)  <br>
-✉️ hrleesap@gmail.com  <br>
-
+  📍 Seoul, Korea <br>
+  👩🏻‍💻 <a href="https://github.com/heyhyo-dev">github: heyhyo-dev</a> <br>
+  ✉️ <a href="mailto:hrleesap@gmail.com">hrleesap@gmail.com</a> <br>
 </div>
 
+
 ---
+
 
 
 

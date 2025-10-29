@@ -14,12 +14,13 @@ comments: false
 
 <div align="center">
   📍 Seoul, Korea <br>
-  👩🏻‍💻 <a href="https://github.com/heyhyo-dev">github: https://github.com/heyhyo-dev</a> <br>
+  👩🏻‍💻 <a href="https://github.com/heyhyo-dev">https://github.com/heyhyo-dev</a> <br>
   ✉️ <a href="mailto:hrleesap@gmail.com">hrleesap@gmail.com</a> <br>
 </div>
 
 
 ---
+
 
 
 

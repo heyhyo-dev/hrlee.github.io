@@ -17,7 +17,7 @@ last_modified_at: 2025-11-07
 ---
 
 ## 🦥 'VALUE #'
-
+<img src="/assets/images/posts_img/readme/value.png" alt="about_meee" width="40%" min-width="700px" itemprop="image">
      
 ### 개념
 - 타입 추론(type inference) 을 통해, 변수의 선언된 타입에 맞게 초기값을 자동으로 생성해요.
@@ -36,6 +36,7 @@ last_modified_at: 2025-11-07
 
 ### etc.
 - 보통 BASE #, CORRESPONDING #, FOR IN 등과 같이 쓰여요.
+
 
 
 

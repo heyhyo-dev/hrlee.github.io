@@ -17,7 +17,9 @@ last_modified_at: 2025-11-07
 ---
 
 ## 🦥 'VALUE #'
-<img src="/assets/images/posts_img/readme/value.png" alt="value" width="400" height="300">
+<img src="{{ '/assets/images/posts_img/readme/value.png' | relative_url }}" 
+     alt="VALUE #( )" width="400" height="300">
+     
 ### 개념
 - 타입 추론(type inference) 을 통해, 변수의 선언된 타입에 맞게 초기값을 자동으로 생성해요.
 - '#'은 컴파일러가 데이터 타입을 유추하도록 하는 기호에요.
@@ -35,6 +37,7 @@ last_modified_at: 2025-11-07
 
 ### etc.
 - 보통 BASE #, CORRESPONDING #, FOR IN 등과 같이 쓰여요.
+
 
 
 

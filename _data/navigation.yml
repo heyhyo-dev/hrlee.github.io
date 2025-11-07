@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Home"
-    url: https://heyhyo-dev.github.io/hrlee.github.io/
+    url: https://heyhyo-dev.github.io/
 
   - title: "About"
     url: /about/
@@ -26,4 +26,5 @@ categories:
     url: /categories/javascript/
   - title: "Insight"
     url: /categories/insight/
+
 

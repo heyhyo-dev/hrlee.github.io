@@ -5,7 +5,7 @@ excerpt: "VALUE #( )"
 categories:
   - SAP ABAP
 tags:
-  - [ABAP, VALUE #]
+  - [ABAP, "VALUE #"]
 
 permalink: /sapabap/value
 
@@ -33,6 +33,7 @@ last_modified_at: 2025-11-07
 
 #### 예시
 <script src="https://gist.github.com/heyhyo-dev/cf584feca24bfc4af65b16eb755af9bb.js"></script>
+
 
 
 

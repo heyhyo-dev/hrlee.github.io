@@ -6,7 +6,7 @@ comments: false
 ---
 
 
-<div align="center">
+<div align="left">
 
 <img src="/assets/images/Kiki.jpeg" alt="about_meee" width="70%" min-width="700px" itemprop="image">
 
@@ -43,6 +43,7 @@ comments: false
   </div>
   
 ---
+
 
 
 

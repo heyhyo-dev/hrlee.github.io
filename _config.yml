@@ -25,7 +25,7 @@ subtitle: # site tagline that appears below site title in masthead
 name: "heyhyo" # 블로그 닉네임 설정
 description: "Dive into Code, One Step at a Time." # 블로그 설명
 url: "https://heyhyo.github.io" # 블로그 URL
-baseurl: "/heyhyodevlog" # the subpath of your site, e.g. "/blog"
+baseurl:  # the subpath of your site, e.g. "/blog"
 repository: "heyhyo-dev/hrlee.github.io" # GitHub Repo 이름
 teaser: #
 
@@ -282,6 +282,7 @@ defaults:
       related: true
       sidebar:
         nav: "categories"
+
 
 
 

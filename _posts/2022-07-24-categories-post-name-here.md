@@ -32,13 +32,8 @@ last_modified_at: 2025-11-07
 
 
 #### 예시
-'''abap
-DATA(ls_emp) = VALUE ty_employee( id = 100 name = 'LEE' ).
-DATA(lt_emp) = VALUE ty_employee_tab( ( id = 100 name = 'KIM' )
-                                      ( id = 200 name = 'PARK' ) ).
-'''
-
 <script src="https://gist.github.com/heyhyo-dev/cf584feca24bfc4af65b16eb755af9bb.js"></script>
+
 
 
 

@@ -40,9 +40,10 @@ UI5 ) UI Development Toolkit for HTML5
 `SAP BAS` : User Client > **SAP Gateway(OData 서비스 제공 플랫폼)**_ 프론트엔드 서버> SAP Server_백엔드 서버 > Database
 
 ### Fiori 개발 방법 
-`Element 방식` : UI 화면 일일이 그리지 않고 annotation으로 화면을 동적으로 생성 가능 → 개발 속도 빠름.  
-        템플릿(Floorplans)으로 생성하여 고객이 원하는 요구사항 모두를 만족시키긴 어렵다.  
-       기업용 UI에 최적화되어 있으며, 표준화된 화면 개발이 가능하다.
+`Element 방식` 
+  1. UI 화면 일일이 그리지 않고 annotation으로 화면을 동적으로 생성 가능 → 개발 속도 빠름.  
+  2. 템플릿(Floorplans)으로 생성하여 고객이 원하는 요구사항 모두를 만족시키긴 어렵다.  
+  3. 기업용 UI에 최적화되어 있으며, 표준화된 화면 개발이 가능하다.
                  
 `SAPUI5 라이브러리` : Freestyle 임의 개발. 고객의 니즈를 만족시킬 수 있지만, 비교적 많은 시간이 소요될 수 있다.
 
@@ -89,5 +90,6 @@ Web IDE(Web IDE personal edition 사용) → BAS(VSCode 사용)로 변모해왔�
 
 
  다음에는 BAS에 관해 포스팅하겠다. 
+
 
 

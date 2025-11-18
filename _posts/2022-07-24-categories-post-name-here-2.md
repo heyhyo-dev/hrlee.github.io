@@ -70,9 +70,9 @@ Backend와 통신하는 건 Model이 한다. Model이 Gateway에 '고객이 이�
 
 ### BAS ( Business Application Studio )
 
-Web IDE(Web IDE personal edition 사용) → BAS(VSCode 사용)로 변모해왔다. (둘 다 Cloud 기반.)
+Web IDE(Web IDE personal edition 사용) → BAS(VSCode 사용)로 변모해왔다. (둘 다 Cloud 기반.)<br/>
 
-`Global Account` : 계약 단위. ( SAP와 계약 맺으면 얻는 ID당 계정 )
+`Global Account` : 계약 단위. ( SAP와 계약 맺으면 얻는 ID당 계정 )<br/>
 
 `Subaccount`1,2,3,… : 흔히 개발, 품질, 운영 서버 있는 것처럼 여러 개로 활용 가능.
 
@@ -89,4 +89,5 @@ Web IDE(Web IDE personal edition 사용) → BAS(VSCode 사용)로 변모해왔�
 
 
  다음에는 BAS에 관해 포스팅하겠다. 
+
 

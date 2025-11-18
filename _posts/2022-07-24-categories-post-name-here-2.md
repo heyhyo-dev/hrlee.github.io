@@ -1,21 +1,88 @@
 ---
-title: "[포스팅 예시] 이곳에 제목을 입력하세요"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
+title: "[UI5] SAP UI5 개요"
+excerpt: "UI5 개요 알아보기"
 
 categories:
-  - Categories2
+  - ui5
 tags:
-  - [tag1, tag2]
+  - [UI5, "VALUE #"]
 
-permalink: /categories2/post-name-here-2/
+permalink: /ui5/value
 
 toc: true
 toc_sticky: true
 
-date: 2022-07-24
-last_modified_at: 2022-07-24
+date: 2025-11-18
+last_modified_at: 2025-11-18
 ---
 
-## 🦥 본문
+## ✅ SAP UI5
+<img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/4a6ee089-1a32-4af8-869a-198a489d9bb3" />
 
-본문은 여기에 ...
+UI5 ) UI Development Toolkit for HTML5
+
+### SAP’s UX Direction - Fiori
+- SAP 디자인 가이드라인 준수하고 만드는 건 다 Fiori.
+- SAP UI5, WebDynpro, 사실 ABAP으로 만든 UI, 즉, Report, screen 등의 개발도 그렇다.
+- 모바일에서 동작하는, 기업용 UX(User Experience)를 consume하고 기업 가치를 제고 가능하다.
+
+현재 기업들은 회사에 서버 사서 SAP 설치해서 쓰는 ON-PREMISE를 많이 쓰지만, 2028년 서비스 종료 후 클라우드로 갈 것.
+
+
+### 만들 수 있는 방법 - SAP Fiori Design Languages
+1. Web : 브라우저 기반 앱 ( usual )
+2. Native Mobile - ios/Android 기반 : 특정 무엇에 종속된 걸 Native라고 한다.
+3. Conversational UX : 앱과 대화하면서 하는 것.
+
+### Classical Screen & Web Dynpro와 SAP BAS의 차이
+`Classical Screen & Web Dynpro` : User Client > SAP Server > Database
+
+`SAP BAS` : User Client > **SAP Gateway(OData 서비스 제공 플랫폼)**_ 프론트엔드 서버> SAP Server_백엔드 서버 > Database
+
+### Fiori 개발 방법 
+1. `Element 방식` : UI 화면 일일이 그리지 않고 annotation으로 화면을 동적으로 생성 가능 → 개발 속도 빠름.
+                    템플릿(Floorplans)으로 생성하여 고객이 원하는 요구사항 모두를 만족시키긴 어렵다.
+                    기업용 UI에 최적화되어 있으며, 표준화된 화면 개발이 가능하다.
+3. `SAPUI5 라이브러리` : Freestyle 임의 개발. 고객의 니즈를 만족시킬 수 있지만, 비교적 많은 시간이 소요될 수 있다.
+
+### UI5 Demo Kit
+<img width="700" height="240" alt="image" src="https://github.com/user-attachments/assets/eb09f530-d03c-49c3-925e-d779829e87d9" />
+
+https://sapui5.hana.ondemand.com/
+
+보통 m으로 되어 있는 곳의 속성들을 사용한다. ( 아래 참조 )
+
+### SAPUI5 대표 Libraries
+
+`sap.m` : 모든 디바이스를 지원한다.
+
+`sap.ui.core` : 기본으로 동작하기 위해 필수적으로 요구되는 것.
+
+`sap.ui.layout` : 화면 배치를 위해서 필요하다.
+
+### SAPUI5 Architecture
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/600aaf11-d22d-4cb3-af18-00e3b829c76f" />
+
+: Backend와 통신하는 건 Model이 한다. Model이 Gateway에 '고객이 이거 생성해달라'고 하면 Backend단에서 데이터로. 
+
+
+
+### BAS ( Business Application Studio )
+
+Web IDE(Web IDE personal edition 사용) → BAS(VSCode 사용)로 변모해왔다. (둘 다 Cloud 기반.)
+`Global Account` : 계약 단위. ( SAP와 계약 맺으면 얻는 ID당 계정 )
+
+`Subaccount`1,2,3,… : 흔히 개발, 품질, 운영 서버 있는 것처럼 여러 개로 활용 가능.
+
+https://account.hana.ondemand.com/#/home/welcome
+
+<img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/2f121225-fe71-4a4a-8b48-ee3b51a3e01a" />
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/eaa31b13-7832-4a75-a8f7-6508a9ec9e6c" />
+
+아래와 같이 VSCode 편집기가 열린다. 
+
+<img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/5178c6af-51af-4bed-8862-243454fee7f5" />
+
+
+
+ 다음에는 BAS에 관해 포스팅하겠다. 

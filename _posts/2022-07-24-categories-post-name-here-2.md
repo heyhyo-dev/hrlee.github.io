@@ -40,15 +40,16 @@ UI5 ) UI Development Toolkit for HTML5
 `SAP BAS` : User Client > **SAP Gateway(OData 서비스 제공 플랫폼)**_ 프론트엔드 서버> SAP Server_백엔드 서버 > Database
 
 ### Fiori 개발 방법 
-1. `Element 방식` : UI 화면 일일이 그리지 않고 annotation으로 화면을 동적으로 생성 가능 → 개발 속도 빠름.
-                    템플릿(Floorplans)으로 생성하여 고객이 원하는 요구사항 모두를 만족시키긴 어렵다.
-                    기업용 UI에 최적화되어 있으며, 표준화된 화면 개발이 가능하다.
-3. `SAPUI5 라이브러리` : Freestyle 임의 개발. 고객의 니즈를 만족시킬 수 있지만, 비교적 많은 시간이 소요될 수 있다.
+`Element 방식` : UI 화면 일일이 그리지 않고 annotation으로 화면을 동적으로 생성 가능 → 개발 속도 빠름.  
+        템플릿(Floorplans)으로 생성하여 고객이 원하는 요구사항 모두를 만족시키긴 어렵다.  
+       기업용 UI에 최적화되어 있으며, 표준화된 화면 개발이 가능하다.
+                 
+`SAPUI5 라이브러리` : Freestyle 임의 개발. 고객의 니즈를 만족시킬 수 있지만, 비교적 많은 시간이 소요될 수 있다.
 
 ### UI5 Demo Kit
 <img width="700" height="240" alt="image" src="https://github.com/user-attachments/assets/eb09f530-d03c-49c3-925e-d779829e87d9" />
 
-https://sapui5.hana.ondemand.com/
+<https://sapui5.hana.ondemand.com/>
 
 보통 m으로 되어 있는 곳의 속성들을 사용한다. ( 아래 참조 )
 
@@ -63,18 +64,20 @@ https://sapui5.hana.ondemand.com/
 ### SAPUI5 Architecture
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/600aaf11-d22d-4cb3-af18-00e3b829c76f" />
 
-: Backend와 통신하는 건 Model이 한다. Model이 Gateway에 '고객이 이거 생성해달라'고 하면 Backend단에서 데이터로. 
+Backend와 통신하는 건 Model이 한다. Model이 Gateway에 '고객이 이거 생성해달라'고 하면 Backend단에서 데이터로. 
 
 
 
 ### BAS ( Business Application Studio )
 
 Web IDE(Web IDE personal edition 사용) → BAS(VSCode 사용)로 변모해왔다. (둘 다 Cloud 기반.)
+
 `Global Account` : 계약 단위. ( SAP와 계약 맺으면 얻는 ID당 계정 )
 
 `Subaccount`1,2,3,… : 흔히 개발, 품질, 운영 서버 있는 것처럼 여러 개로 활용 가능.
 
-https://account.hana.ondemand.com/#/home/welcome
+
+<https://account.hana.ondemand.com/#/home/welcome>
 
 <img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/2f121225-fe71-4a4a-8b48-ee3b51a3e01a" />
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/eaa31b13-7832-4a75-a8f7-6508a9ec9e6c" />
@@ -86,3 +89,4 @@ https://account.hana.ondemand.com/#/home/welcome
 
 
  다음에는 BAS에 관해 포스팅하겠다. 
+

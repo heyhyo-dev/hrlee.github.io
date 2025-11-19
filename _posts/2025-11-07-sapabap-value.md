@@ -7,7 +7,7 @@ categories:
 tags:
   - [ABAP, "VALUE #"]
 
-permalink: /sapabap/value/
+permalink: /sap-abap/value/
 
 toc: true
 toc_sticky: true
@@ -36,6 +36,7 @@ last_modified_at: 2025-11-07
 
 ### etc.
 - 보통 BASE #, CORRESPONDING #, FOR IN 등과 같이 쓰인다.
+
 
 
 

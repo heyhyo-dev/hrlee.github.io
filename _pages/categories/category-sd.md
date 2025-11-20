@@ -1,11 +1,12 @@
 ---
-title: "Insight"
+title: "SD"
 layout: category
-permalink: /categories/insight/
+permalink: /categories/sd/
 author_profile: true
-taxonomy: Insight
+taxonomy: SD
 sidebar:
   nav: "categories"
 ---
+
 
 

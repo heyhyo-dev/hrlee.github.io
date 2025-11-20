@@ -1,11 +1,12 @@
 ---
-title: "Javascript"
+title: "MM"
 layout: category
-permalink: /categories/javascript/
+permalink: /categories/mm/
 author_profile: true
-taxonomy: Javascript
+taxonomy: MM
 sidebar:
   nav: "categories"
 ---
+
 
 

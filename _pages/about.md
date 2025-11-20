@@ -5,52 +5,82 @@ layout: single
 comments: false
 ---
 
+<style>
+  .profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
 
-<div align="left">
+  .profile-image {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  }
 
-<img src="/assets/images/Kiki.jpeg" alt="about_meee" width="70%" min-width="700px" itemprop="image">
+  .info-card {
+    margin-top: 1.8rem;
+    padding: 1.3rem 1.6rem;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    max-width: 420px;
+    width: 100%;
+  }
+
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .info-item i {
+    margin-right: 10px;
+    font-size: 1.1rem;
+    width: 20px;
+  }
+
+  .info-item:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 480px) {
+    .info-card {
+      padding: 1.1rem 1.2rem;
+    }
+    .info-item {
+      font-size: 0.95rem;
+    }
+  }
+</style>
+
+<div class="profile-wrapper">
+
+  <img 
+    src="/assets/images/Kiki.jpeg" 
+    alt="about_meee" 
+    class="profile-image"
+  />
+
+  <div class="info-card">
+    <div class="info-item">
+      <i class="fas fa-map-marker-alt"></i> Seoul, Korea
+    </div>
+
+    <div class="info-item">
+      <i class="fab fa-github"></i>
+      <a href="https://github.com/heyhyo-dev" target="_blank">
+        github.com/heyhyo-dev
+      </a>
+    </div>
+
+    <div class="info-item">
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:hrleesap@gmail.com">hrleesap@gmail.com</a>
+    </div>
+  </div>
 
 </div>
-
-<!-- <div align="center">
-  📍 Seoul, Korea <br>
-  👩🏻‍💻 <a href="https://github.com/heyhyo-dev">https://github.com/heyhyo-dev</a> <br>
-  ✉️ <a href="mailto:hrleesap@gmail.com">hrleesap@gmail.com</a> <br>
-</div> -->
-
-<div style="border-left: 2px solid rgba(199, 198, 198, 0.7); margin: 0.5em 0 0 0.5em; padding-left: 1.5em; font-weight: 500;">
-    <ul class="author__urls social-icons">
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">  Seoul, Korea</span>
-        </li>
-        <li>
-          <a href="https://github.com/heyhyo-dev" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">  https://github.com/heyhyo-dev</span>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:hrleesap@gmail.com">
-            <meta itemprop="email" content="hrleesap@gmail.com" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">  hrleesap@gmail.com</span>
-          </a>
-        </li>
-        <!-- <li>
-          <a href="https://www.instagram.com/choiiis.dev/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">  https://www.instagram.com/choiiis.dev/</span>
-          </a>
-        </li> -->
-    </ul>
-  </div>
-  
----
-
-
-
-
-
-
-
-
-
-
-

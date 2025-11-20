@@ -285,9 +285,10 @@ defaults:
         nav: "categories"
 
 
-collections:
-  categories:
-    output: false
+# collections:
+#   categories:
+#     output: false
+
 
 
 

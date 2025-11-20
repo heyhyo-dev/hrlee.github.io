@@ -8,11 +8,9 @@ comments: false
 <style>
   .profile-wrapper {
     margin-top: 1.5rem;
-
-    /* 기본: 왼쪽 정렬 (PC) */
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; /* PC: 왼쪽 정렬 */
   }
 
   .profile-image {
@@ -49,14 +47,24 @@ comments: false
     margin-bottom: 0;
   }
 
-  /* 모바일에서는 자연스럽게 중앙 정렬 */
+  /* 📱 모바일에서 텍스트만 왼쪽 정렬 */
   @media (max-width: 768px) {
-    .profile-wrapper {
-      align-items: center;
-      text-align: center;
+    .info-card {
+      text-align: left;
     }
+
     .info-item {
-      justify-content: center;
+      width: 100%;
+      text-align: left !important;
+      justify-content: flex-start;
+    }
+
+    /* 텍스트 요소만 확실하게 왼쪽 정렬 */
+    .info-item a,
+    .info-item span {
+      text-align: left !important;
+      display: block;
+      width: 100%;
     }
   }
 </style>
@@ -71,7 +79,8 @@ comments: false
 
   <div class="info-card">
     <div class="info-item">
-      <i class="fas fa-map-marker-alt"></i> Seoul, Korea
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Seoul, Korea</span>
     </div>
 
     <div class="info-item">

@@ -3,8 +3,9 @@ title: "Insight"
 layout: category
 permalink: /categories/insight/
 author_profile: true
-taxonomy: insight
+taxonomy: Insight
 sidebar:
   nav: "categories"
 ---
+
 
